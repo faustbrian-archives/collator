@@ -5,7 +5,7 @@
 [![Build Status](https://img.shields.io/github/workflow/status/kodekeep/collator/run-tests?label=tests)](https://github.com/kodekeep/collator/actions?query=workflow%3Arun-tests+branch%3Amaster)
 [![Coverage Status](https://badgen.net/codeclimate/coverage/kodekeep/collator)](https://codeclimate.com/github/kodekeep/collator)
 [![Quality Score](https://badgen.net/codeclimate/maintainability/kodekeep/collator)](https://codeclimate.com/github/kodekeep/collator)
-[![Total Downloads](https://badgen.net/npm/dt/kodekeep/collator)](https://npmjs.com/package/@kodekeep/collator)
+[![Total Downloads](https://badgen.net/npm/dt/@kodekeep/collator)](https://npmjs.com/package/@kodekeep/collator)
 
 This package was created by, and is maintained by [Brian Faust](https://github.com/faustbrian), and provides a developer experience focused API for [Intl.Collator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator).
 
