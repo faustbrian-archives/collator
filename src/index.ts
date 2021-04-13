@@ -1,7 +1,10 @@
 export class Collator {
 	readonly #collator: Intl.Collator;
 
-	public constructor(locales?: string | string[] | undefined, options?: Intl.CollatorOptions | undefined) {
+	public constructor(
+		locales?: string | string[] | undefined,
+		options?: Intl.CollatorOptions | undefined
+	) {
 		this.#collator = new Intl.Collator(locales, options);
 	}
 
@@ -33,13 +36,13 @@ export class Collator {
 		const a: string[] = value.split(".");
 		const b: string[] = other.split(".");
 
-		const hasSameMajor: number = this.#collator.compare(a[0], b[0]);
+		const hasSameMajor: number = this.#collator.compare(a[0]!, b[0]!);
 
 		if (hasSameMajor) {
 			return hasSameMajor;
 		}
 
-		const hasSameMinor: number = this.#collator.compare(a[1], b[1]);
+		const hasSameMinor: number = this.#collator.compare(a[1]!, b[1]!);
 
 		if (hasSameMinor) {
 			return hasSameMinor;
